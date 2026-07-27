@@ -1,6 +1,9 @@
 # BlastZap
 
-- **Versao atual:** 2.0.0
+
+<!-- blastzap-latest-download:start -->
+[![Baixar ultima versao](https://img.shields.io/github/v/release/wendelgomesdev/blastzap?label=LATEST&style=flat-square&color=20c000)](https://github.com/wendelgomesdev/blastzap/releases/download/2.2.1/BlastZap-2.2.1-Instalador.exe)
+<!-- blastzap-latest-download:end -->
 - **Plataforma:** Windows
 - **Tipo:** automação desktop para WhatsApp Web
 

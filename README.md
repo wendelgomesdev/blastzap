@@ -3,6 +3,7 @@
 
 <!-- blastzap-latest-download:start -->
 [![Baixar ultima versao](https://img.shields.io/github/v/release/wendelgomesdev/blastzap?label=LATEST&style=flat-square&color=20c000)](https://github.com/wendelgomesdev/blastzap/releases/download/2.2.1/BlastZap-2.2.1-Instalador.exe)
+- **Versao atual:** 2.2.1
 <!-- blastzap-latest-download:end -->
 - **Plataforma:** Windows
 - **Tipo:** automação desktop para WhatsApp Web
@@ -95,3 +96,16 @@ Ao relatar um problema, informe:
 ## Aviso
 
 O BlastZap não é afiliado, associado ou endossado pelo WhatsApp ou Meta. WhatsApp e WhatsApp Web sao marcas de seus respectivos proprietarios.
+
+<!-- blastzap-latest-changes:start -->
+## Novidades da versao 2.2.1
+
+### Novidades
+
+- Corrigido o bug que criava listas não solicitadas;
+- Adicionada a função de duplicação de campanhas;
+- O programa agora pode ser executado em segundo plano, sem a necessidade de manter a janela do dashboard aberta;
+- Adicionado bypass para a confirmação de disparos de mensagens programadas;
+- Implementada a funcionalidade de resposta com IA. Agora é possível classificar usuários que respondem às mensagens e responder automaticamente utilizando inteligência artificial;
+- Adicionado o botão de redefinição de contatos na tela de Campanhas.
+<!-- blastzap-latest-changes:end -->

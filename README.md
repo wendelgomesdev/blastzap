@@ -2,8 +2,8 @@
 
 
 <!-- blastzap-latest-download:start -->
-[![Baixar ultima versao](https://img.shields.io/github/v/release/wendelgomesdev/blastzap?label=LATEST&style=flat-square&color=20c000)](https://github.com/wendelgomesdev/blastzap/releases/download/2.3.0/BlastZap-2.3.0-Instalador.exe)
-- **Versao atual:** 2.3.0
+[![Baixar ultima versao](https://img.shields.io/github/v/release/wendelgomesdev/blastzap?label=LATEST&style=flat-square&color=20c000)](https://github.com/wendelgomesdev/blastzap/releases/download/2.4.0/BlastZap-2.4.0-Instalador.exe)
+- **Versao atual:** 2.4.0
 <!-- blastzap-latest-download:end -->
 - **Plataforma:** Windows
 - **Tipo:** automação desktop para WhatsApp Web
@@ -98,26 +98,24 @@ Ao relatar um problema, informe:
 O BlastZap não é afiliado, associado ou endossado pelo WhatsApp ou Meta. WhatsApp e WhatsApp Web sao marcas de seus respectivos proprietarios.
 
 <!-- blastzap-latest-changes:start -->
-## Novidades da versao 2.3.0
+## Novidades da versao 2.4.0
 
 ### Novidades
 
 - Novidades:
-- Novo Gerenciador de tarefas com fila, progresso, logs e controles de pausar, retomar e parar.
-- Programações agora são exibidas em cards, com busca, filtros, paginação, status, erros e ações de editar ou excluir.
-- Campanhas podem ser disparadas diretamente pelo card após confirmação.
-- Nova opção para duplicar campanhas mantendo suas configurações.
-- Resumo operacional adicionado à tela inicial.
-- Indicadores de navegador e tarefa abrem o Gerenciador de tarefas ao serem clicados.
-- Avisos de tarefa em execução também permitem abrir o Gerenciador.
-- Melhorias:
-- “Novo disparo” foi simplificado e renomeado para Disparo avulso.
-- Configurações avançadas de respostas foram organizadas no bloco recolhível Automação de respostas.
-- Removido o botão “Abrir navegador” das telas de execução; o navegador é preparado automaticamente.
-- Melhor organização das listas automáticas criadas pelas respostas das campanhas.
-- Descrições dessas listas agora podem incluir campanha, data e um complemento personalizado.
-- Correções:
-- Listas automáticas de respostas agora permanecem vinculadas à campanha correta.
-- Coleta de contatos por grupos ou etiquetas sempre abre o Chrome visível, mesmo com headless ativado.
-- O programa agora permite apenas uma instância; abrir novamente restaura a instância existente, inclusive pela bandeja.
+- Cada card de Disparos programados agora possui o botão Reprogramar.
+- Nova tela de Desempenho da campanha, com funil de enviados, respostas, classificações e resultados positivos.
+- Comparação individual das mensagens para identificar quais geram melhores resultados.
+- Análise de desempenho opcional, com resultados como respostas, interesse, agendamentos, vendas, reativação ou um resultado personalizado.
+- IA capaz de avaliar automaticamente se a resposta do contato representa um resultado positivo para a campanha.
+- Otimização automática das mensagens.
+- Modelos prontos de organização: Básico, Funil comercial completo e Atendimento.
+- Opção Montar minhas categorias, permitindo definir tipos de resposta e suas respectivas listas.
+- Botão Reprogramar nos cards de disparos programados, utilizando o calendário.
+- Programações na fila agora podem ser retiradas, editadas, reprogramadas e reativadas antes de iniciarem.
+- Novo canal nas configurações para enviar sugestões ou reclamações ao suporte, disponível para clientes licenciados.
+- Tela de Contas de WhatsApp reformulada com cards, pesquisa, filtros e paginação.
+- Opção para excluir contas de WhatsApp, com transferência segura das campanhas e programações vinculadas.
+- Disparos avulsos agora permitem mensagens com imagens, vídeos, áudios e arquivos.
+- Nova opção para forçar o envio de qualquer mídia como arquivo.
 <!-- blastzap-latest-changes:end -->

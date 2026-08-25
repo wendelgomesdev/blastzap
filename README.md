@@ -68,7 +68,7 @@ A licenca pode controlar:
 - Conexao com a internet.
 - Uma conta de WhatsApp ativa (de preferência WhatsApp Business).
 - Acesso ao WhatsApp Web.
-- Licenca valida, quando exigida pelo plano.
+- Licenca valida.
 
 ## Uso Responsavel
 

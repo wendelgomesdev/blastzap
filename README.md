@@ -2,8 +2,8 @@
 
 
 <!-- blastzap-latest-download:start -->
-[![Baixar ultima versao](https://img.shields.io/github/v/release/wendelgomesdev/blastzap?label=LATEST&style=flat-square&color=20c000)](https://github.com/wendelgomesdev/blastzap/releases/download/2.4.0/BlastZap-2.4.0-Instalador.exe)
-- **Versao atual:** 2.4.0
+[![Baixar ultima versao](https://img.shields.io/github/v/release/wendelgomesdev/blastzap?label=LATEST&style=flat-square&color=20c000)](https://github.com/wendelgomesdev/blastzap/releases/download/2.5.0/BlastZap-2.5.0-Instalador.exe)
+- **Versao atual:** 2.5.0
 <!-- blastzap-latest-download:end -->
 - **Plataforma:** Windows
 - **Tipo:** automação desktop para WhatsApp Web
@@ -98,11 +98,11 @@ Ao relatar um problema, informe:
 O BlastZap não é afiliado, associado ou endossado pelo WhatsApp ou Meta. WhatsApp e WhatsApp Web sao marcas de seus respectivos proprietarios.
 
 <!-- blastzap-latest-changes:start -->
-## Novidades da versao 2.4.0
+## Novidades da versao 2.5.0
 
 ### Novidades
 
-- Novidades:
+- Melhorias Gerais:
 - Cada card de Disparos programados agora possui o botão Reprogramar.
 - Nova tela de Desempenho da campanha, com funil de enviados, respostas, classificações e resultados positivos.
 - Comparação individual das mensagens para identificar quais geram melhores resultados.
@@ -116,6 +116,40 @@ O BlastZap não é afiliado, associado ou endossado pelo WhatsApp ou Meta. Whats
 - Novo canal nas configurações para enviar sugestões ou reclamações ao suporte, disponível para clientes licenciados.
 - Tela de Contas de WhatsApp reformulada com cards, pesquisa, filtros e paginação.
 - Opção para excluir contas de WhatsApp, com transferência segura das campanhas e programações vinculadas.
-- Disparos avulsos agora permitem mensagens com imagens, vídeos, áudios e arquivos.
+- Disparos avulsos (Agora chamado de Disparos Express) agora permitem mensagens com imagens, vídeos, áudios e arquivos.
 - Nova opção para forçar o envio de qualquer mídia como arquivo.
+- Novo menu de contexto em campos de texto, com opções para copiar, colar, recortar, desfazer, selecionar tudo e limpar campo.
+- Menu de contexto também pode ser aberto pela tecla de menu do teclado ou `Shift + F10`.
+- Telas com alterações não salvas agora avisam o usuário antes de sair sem salvar.
+- Listas de Contatos:
+- Listas de contatos agora podem ser organizadas em pastas.
+- É possível criar, editar, abrir e excluir pastas de listas.
+- Dentro de uma lista, agora existe uma tela para transferir contatos entre listas.
+- É possível copiar, mover ou criar uma nova lista a partir de contatos selecionados.
+- Importação de contatos foi simplificada: a coluna obrigatória principal é o telefone.
+- Após coletar contatos de grupos ou etiquetas, o programa sugere o próximo passo, como usar em campanha ou ir para a lista criada.
+- Campanhas e Públicos:
+- Nova opção para criar públicos a partir dos resultados de uma campanha, como responderam, não responderam, leram, receberam, converteram ou foram classificados.
+- Na criação de campanha, agora é possível usar um público gerado por outra campanha como lista de contatos.
+- Em Disparos Express, também é possível usar públicos de campanhas anteriores como destino.
+- Nova opção “Próxima campanha”, que permite criar automaticamente uma nova campanha ao final da janela de resposta da campanha atual.
+- A próxima campanha pode ser criada para públicos como clientes que responderam ou clientes que não responderam.
+- A próxima campanha já pode ficar programada automaticamente para uma data e horário definidos.
+- A criação da próxima campanha respeita o fim real da campanha e a janela de resposta, evitando remarketing antes da hora.
+- Botão “Ir para lista” na criação da campanha permite editar a lista selecionada e voltar mantendo os dados já preenchidos.
+- Botão de reset de contatos foi levado para o contexto da campanha, evitando afetar outras campanhas que usam a mesma lista.
+- Resultados da campanha agora podem ter as métricas resetadas para recomeçar a análise daquela campanha.
+- Disparos Express:
+- “Disparos avulsos” passou a se chamar Disparos Express.
+- Disparos Express agora permitem cadastrar uma lista de mensagens e sortear variações, como nas campanhas.
+- A tela de Disparos Express recebeu os mesmos atalhos de montagem de mensagem usados nas campanhas, como quebra, saudação e variações.
+- Métricas e Relatórios:
+- Entregas e leituras detectadas passam a ser registradas como métricas informativas da campanha.
+- Dados de entregue/lido ajudam o usuário a analisar alcance, mas não alteram o ranking das mensagens.
+- Relatórios de campanha podem ser exportados em HTML, CSV, JSON e texto.
+- Relatórios podem ser enviados ou agendados para envio pelo próprio programa.
+- Inicialização, Atualizações e Notificações:
+- Nova opção para abrir o programa junto com o Windows direto na bandeja, sem abrir a tela principal.
+- Programa ganhou melhorias para continuar rodando em segundo plano e processar automações pendentes.
+- Buffer de respostas adicionado para juntar mensagens picadas do cliente antes de classificar ou executar ações.
 <!-- blastzap-latest-changes:end -->
